@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".QuizActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="30dp"
+        android:textSize="20dp"
+        android:text="Which country does this flag\nbelong to?"/>
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/flag"
+        android:src="@drawable/flag_argentina"
+        android:layout_width="200dp"
+        android:layout_marginBottom="30dp"
+        android:layout_height="140dp" />
+
+    <ProgressBar
+        android:layout_marginHorizontal="50dp"
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="10"
+        android:pointerIcon="arrow"
+        android:progress="2"
+        android:layout_marginBottom="10dp"
+        android:progressDrawable="@drawable/progress_bar"/>
+
+    <TextView
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="2/10" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="60dp"
+        android:text="Argentina"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#D6D6D6"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="60dp"
+        android:text="Argentina"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#D6D6D6"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="60dp"
+        android:text="Argentina"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#D6D6D6"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="60dp"
+        android:text="Argentina"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#D6D6D6"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="60dp"
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp" />
+
+</LinearLayout>
