@@ -9,6 +9,7 @@
     tools:context=".QuizActivity">
 
     <TextView
+        android:id="@+id/questionTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -47,6 +48,7 @@
         android:text="2/10" />
 
     <Button
+        android:id="@+id/option1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="60dp"
@@ -56,6 +58,7 @@
         android:backgroundTint="#D6D6D6"/>
 
     <Button
+        android:id="@+id/option2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="60dp"
@@ -65,6 +68,7 @@
         android:backgroundTint="#D6D6D6"/>
 
     <Button
+        android:id="@+id/option3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="60dp"
@@ -74,6 +78,7 @@
         android:backgroundTint="#D6D6D6"/>
 
     <Button
+        android:id="@+id/option4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="60dp"
@@ -83,6 +88,7 @@
         android:backgroundTint="#D6D6D6"/>
 
     <Button
+        android:id="@+id/submitAndNext"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="60dp"
